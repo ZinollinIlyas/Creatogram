@@ -36,8 +36,8 @@ const Home = () => {
     <div className=" bg-[#F9FAFF] h-full">
       <div className="bg-[#F9FAFF] w-screen">
         <div className="bg-white flex justify-center py-5">
-          <p className="ml-[250px] text-sm">Trending Posts</p>
-          <p className="ml-7 text-sm">Trending works</p>
+          <p className="ml-[250px] text-sm" onClick={() => setTrend("post")}>Trending Posts</p>
+          <p className="ml-7 text-sm" onClick={() => setTrend("work")}>Trending works</p>
         </div>
       </div>
       {trend === "post" ? renderPosts() : renderWorks()}
