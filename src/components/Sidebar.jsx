@@ -11,11 +11,11 @@ const Sidebar = () => {
     <div className="fixed w-64 h-screen bg-white justify-self-start p-5">
       <div className="flex flex-col">
         <Logo/>
-        <div className="mt-12 flex justify-start">
+        <div className="mt-12 flex justify-start cursor-pointer">
           <HomeLogo/>
           <p>Home</p>
         </div>
-        <div className="mt-12 flex justify-start">
+        <div className="mt-12 flex justify-start cursor-pointer">
           <ExploreLogo/>
           <p>Explore</p>
         </div>
@@ -34,7 +34,7 @@ const Sidebar = () => {
           <p>Jobs</p>
           <p className="ml-auto bg-[#394AE2] py-1 px-1.5 rounded-[44px] text-xs white text-white not-italic font-light">Soon</p>
         </div>
-        <div className="mt-12 flex justify-start">
+        <div className="mt-12 flex justify-start cursor-pointer">
           <ProfileLogo/>
           <p>Profile</p>
         </div>

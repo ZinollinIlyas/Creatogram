@@ -49,4 +49,22 @@ export const data = [
     description: "",
     image_path: "images/Rectangle_39877.jpg"
   },
+  {
+    author: "Monkey D Elfus",
+    nickname: "@redmagician",
+    description: "",
+    image_path: "images/pink.jpg"
+  },
+  {
+    author: "Prof",
+    nickname: "@moriarti",
+    description: "",
+    image_path: "images/moriarti.jpg"
+  },
+  {
+    author: "Prof",
+    nickname: "@moriarti",
+    description: "",
+    image_path: "images/green.jpg"
+  },
 ]
